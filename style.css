@@ -1,6 +1,7 @@
 @charset "UTF-8";
 
 
+
 /* CSS Document */
 
 html {
@@ -137,6 +138,7 @@ img {
 
 
 
+
 /**** nav ****/
 
 #nav {
@@ -185,7 +187,7 @@ img {
 }
 
 .content h1 {
-  color: #FFF;
+    color: #FFF;
     font-size: 157px;
     text-shadow: 2px 2px 13px #464646de;
     margin-bottom: 0;
@@ -259,12 +261,12 @@ img {
 }
 
 .dark__button {
-   
+
     background-color: #000;
     text-decoration: none;
     color: #fff;
     border-radius: 5px;
-    
+
     display: inline-block;
     font-size: 12px;
     font-weight: 700;
@@ -277,8 +279,7 @@ img {
 }
 
 .dark__button:hover {
-     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
-    text-decoration: none
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) text-decoration: none
 }
 
 .center {
@@ -462,7 +463,7 @@ img {
 }
 
 .container {
-        border-bottom: 3px solid #217bff00;
+    border-bottom: 3px solid #217bff00;
     width: 210px;
     float: left;
     margin-right: 80px;
@@ -479,11 +480,10 @@ img {
 }
 
 .container:hover {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
-   /* border-bottom: 3px solid #217bffbf; */
+    /* border-bottom: 3px solid #217bffbf; */
     transform: scale(1.045);
-
 }
 
 .circle {
@@ -508,7 +508,7 @@ img {
 }
 
 .section {
-    
+
     background-color: rgba(31, 31, 35, 0.3);
     !important
 }
@@ -521,18 +521,18 @@ img {
 }
 
 img.barcode {
-padding: 83px 0 40px 0;
+    padding: 83px 0 40px 0;
 }
 
 .inner__container {
-  height: 40%;
-      background: #006bffb8;
-  border-radius: 8px 8px 0 0;
-  width: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 1000;
+    height: 40%;
+    background: #006bffb8;
+    border-radius: 8px 8px 0 0;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1000;
 }
 
 .inner__content {
@@ -543,7 +543,7 @@ padding: 83px 0 40px 0;
 }
 
 .dark__button.card {
-      position: relative;
+    position: relative;
     bottom: -21px;
 }
 
@@ -555,7 +555,7 @@ padding: 83px 0 40px 0;
 }
 
 .inner__content h2 {
-      text-transform: uppercase;
+    text-transform: uppercase;
     position: relative;
     top: 22px;
- }
+}
