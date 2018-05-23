@@ -448,11 +448,12 @@ img {
 
 #products h2 {
     margin-top: 0;
-    color: #fff;
+    color: #272727;
 }
 
 #products .cards h2 {
     margin-top: 30px;
+    color: #fff
 }
 
 .cards {
