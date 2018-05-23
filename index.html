@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>fullpage test</title>
+    <link rel="stylesheet" type="text/css" href="jquery.fullPage.css" />
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script type="text/javascript" src="jquery.fullpage.min.js"></script>
+    
+    <link rel="stylesheet" href="animate.css">
+    <script src="wow.min.js"></script> 
+    <script>
+    new WOW().init();
+    </script> 
+</head>
+
+<body> 
+    <script type="text/javascript">
+    $(document).ready(function() {
+        $('#fullpage').fullpage({
+            //Navigation
+            menu: '#menu',
+            lockAnchors: false,
+            anchors: ['firstPage', 'secondPage'],
+            navigation: true,
+            navigationPosition: 'right',
+            navigationTooltips: [''],
+            showActiveTooltip: false,
+            slidesNavigation: false,
+            slidesNavPosition: 'bottom',
+
+            //Scrolling
+            css3: true,
+            scrollingSpeed: 700,
+            autoScrolling: true,
+            fitToSection: true,
+            fitToSectionDelay: 1000,
+            scrollBar: true,
+            easing: 'easeInOutCubic',
+            easingcss3: 'ease',
+            loopBottom: false,
+            loopTop: false,
+            loopHorizontal: true,
+            continuousVertical: false,
+            continuousHorizontal: false,
+            scrollHorizontally: false,
+            interlockedSlides: false,
+            dragAndMove: false,
+            offsetSections: false,
+            resetSliders: true,
+            fadingEffect: false,
+            normalScrollElements: '#element1, .element2',
+            scrollOverflow: false,
+            scrollOverflowReset: false,
+            scrollOverflowOptions: null,
+            touchSensitivity: 15,
+            normalScrollElementTouchThreshold: 5,
+            bigSectionsDestination: null,
+
+            //Accessibility
+            keyboardScrolling: true,
+            animateAnchor: true,
+            recordHistory: true,
+
+            //Design
+            controlArrows: true,
+            verticalCentered: true,
+            sectionsColor: ['rgba(31, 31, 35, 0.3);', '#fff'],
+            paddingTop: '3em',
+            paddingBottom: '10px',
+            fixedElements: '#header, .footer',
+            responsiveWidth: 0,
+            responsiveHeight: 0,
+            responsiveSlides: false,
+            parallax: false,
+            parallaxOptions: { type: 'reveal', percentage: 62, property: 'translate' },
+
+            //Custom selectors
+            sectionSelector: '.section',
+            slideSelector: '.slide',
+
+            lazyLoading: true,
+
+            //events
+            onLeave: function(index, nextIndex, direction) {},
+            afterLoad: function(anchorLink, index) {},
+            afterRender: function() {},
+            afterResize: function() {},
+            afterResponsive: function(isResponsive) {},
+            afterSlideLoad: function(anchorLink, index, slideAnchor, slideIndex) {},
+            onSlideLeave: function(anchorLink, index, slideIndex, direction, nextSlideIndex) {}
+        });
+    });
+    </script> 
+    <div id="bot" class="sticky">
+        <div class="wrapper">
+            <nav id="nav" class="negative">
+                <ul>
+                    <li><a href="#">ABOUT US</a></li>
+                    <li><a href="#">PRODUCTS</a></li>
+                    <li><a href="#">REFERENCES</a></li>
+                    <li><a href="#">NEWS</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <div class="fullscreen-bg">
+        <video loop muted autoplay poster="img/videoframe.jpg" class="fullscreen-bg__video">
+            <source src="img/video.mp4" type="video/mp4">
+        </video>
+    </div>
+    <div id="fullpage">
+        <div class="section">
+            <header class="header">
+            </header>
+            <span class="center">
+  <div class="wrapper">
+   <div class="wrap">
+   	<div class="element">
+    <div class="content">
+     <span class="welcome"> <h1>Welcome</h1></span>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo possimus, a, voluptate delectus quibusdam itaque accusantium magnam commodi! Labore deserunt debitis numquam! Iusto porro sunt ipsam quidem numquam ullam, adipisci, similique voluptatem non nostrum modi omnis consectetur dolorum, expedita corporis maiores impedit culpa consequuntur dolorem unde accusamus iste ratione maxime voluptatibus enim. Est vel nesciunt hic sit nihil, possimus dolorum?</p>
+            <a href="#" class="button">learn more</a>
+        </div>
+    </div>
+    </div>
+    </div>
+    <div class="arrow bounce animated infinite"><i class="fas fa-chevron-down"></i></div>
+    </span>
+    </div>
+    <div class="section">
+        <div id="products">
+            <div class="wrapper">
+                <h2>Our great products</h2>
+                <p class="txt">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, alias, cum labore sit placeat tempora culpa iusto laborum, temporibus voluptas quae aperiam reprehenderit fugiat dignissimos! Et hic numquam ea, minus laboriosam adipisci aperiam incidunt animi autem dolorum ad amet quae molestiae praesentium soluta dolor quibusdam blanditiis, ex? Accusantium, dolores quia, delectus minima cum repudiandae aliquam modi reiciendis placeat consectetur dolorem. Aut maxime labore ullam sequi expedita modi sint impedit delectus itaque laborum repellat veritatis ab incidunt, ut officia nesciunt, beatae dignissimos sit corporis quos explicabo tempora. Maiores facere tempora iure dolores rerum, est, explicabo et odio eveniet quos, fuga, corporis.</p>
+                <div class="cards clearfix">
+                    <div class="container wow bounceIn" data-wow-delay="0.2s">
+                       
+                        <h2>Product A</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores voluptates, eligendi.</p>
+                        <a href="#" class="dark__button">Learn More&raquo;</a> 
+						<img src="img/barcode.png" alt="barcode" class="barcode">
+                    </div>
+
+                    <div class="container wow bounceIn" data-wow-delay="0.2s">
+                        
+                        <h2>Product B</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores voluptates, eligendi.</p>
+                        <a href="#" class="dark__button">Learn More&raquo;</a> </div>
+                    <div class="container wow bounceIn" data-wow-delay="0.2s">
+                        
+                        <h2>Product C</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores voluptates, eligendi.</p>
+                        <a href="#" class="dark__button">Learn More&raquo;</a> </div>
+                    <div class="container wow bounceIn" data-wow-delay="0.2s">
+                        
+                        <h2>Product D</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores voluptates, eligendi.</p>
+                        <a href="#" class="dark__button">Learn More&raquo;</a> </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section">Some section</div>
+    <div class="section">Some section</div>
+    </div>
+</body>
+
+</html>
